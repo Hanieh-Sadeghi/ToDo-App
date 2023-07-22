@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+  background: linear-gradient(135deg, #4ab1ff, #2d5cfe);
 }
 
 ::selection {
   color: #fff;
-  background: #3C87FF;
+  background: #3c87ff;
 }
 
 .wrapper {
@@ -47,7 +47,7 @@ body {
 .task-input input:focus,
 .task-input input.active {
   padding-left: 52px;
-  border: 2px solid #3C87FF;
+  border: 2px solid #3c87ff;
 }
 
 .task-input input::placeholder {
@@ -78,7 +78,7 @@ li {
 }
 
 .filters span.active {
-  color: #3C87FF;
+  color: #3c87ff;
 }
 
 .controls .clear-btn {
@@ -93,7 +93,7 @@ li {
   letter-spacing: 0.3px;
   pointer-events: none;
   transition: transform 0.25s ease;
-  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+  background: linear-gradient(135deg, #1798fb 0%, #2d5cfe 100%);
 }
 
 .clear-btn.active {
@@ -152,7 +152,7 @@ li {
 
 .task label input {
   margin-top: 7px;
-  accent-color: #3C87FF;
+  accent-color: #3c87ff;
 }
 
 .task label p {
